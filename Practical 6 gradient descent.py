@@ -1,7 +1,9 @@
+#Gradient Descent
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-data=pd.read_csv("C:/Users/User/Downloads/1572467464_student_scores.csv")
+data=pd.read_csv("student_scores.csv")
 print(data)
 print("\n")
 x=data.iloc[:15,0]
